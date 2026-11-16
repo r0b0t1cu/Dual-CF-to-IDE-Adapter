@@ -2,7 +2,7 @@
 
 A dual CompactFlash-to-IDE adapter designed to connect two CF cards to a standard 40-pin IDE interface. Each CF slot can be configured independently as **Master**, **Slave**, or **Cable Select**. The board also provides selectable CF supply voltage and selectable power input.
 
-The project is intended for vintage-computing and other systems that use an IDE/ATA interface.
+The project is intended for vintage-computing and other systems that use an IDE interface.
 
 ![Dual CF-to-IDE adapter installed with a CF card](doc/images/IMG_2194.JPG)
 
