@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '101D_TAAB_R01'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ATTEND", "101D-TAAB-R01" (!) = "", "101DTAABR01", "Other", "", "", "Connector: for cards; Compact Flash; SMT; gold flash; LCP; 40m", "https://cdn.ozdisan.com/ETicaret_Dosya/585481_4595843.PDF", "4.05 mm"
+END_PART
+
+END.
