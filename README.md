@@ -14,9 +14,9 @@ The project is intended for vintage-computing and other systems that use an IDE 
 - Selectable power source: external +5 V input or power from IDE pin 20.
 - Four status LEDs:
   - **POWER** – board power indication.
-  - **MASTER** – Master status indication.
-  - **SLAVE** – Slave status indication.
-  - **ACTIVITY** – activity indication.
+  - **MASTER** – lit when a card is present in slot A.
+  - **SLAVE** – lit when a card is present in slot B.
+  - **ACTIVITY** – drive activity indication (shared DASP# line; lit during access by either card, if the card drives DASP#).
 - Polyfuse protection on the power input.
 - KiCad design files, schematic, BOM, assembly documentation and PCB manufacturing files included.
 
@@ -63,6 +63,7 @@ Selects the supply voltage provided to the CF interface:
 | Open (no jumper) | Slave |
 
 The two slots have independent device-select jumpers. When using both cards on the same IDE channel, configure them so that they do not both claim the same device role (for example, one Master and the other Slave), subject to the host system's IDE support.
+The CF A / CF B LEDs follow the physical slot, not the Master/Slave role set by JP3/JP4.
 
 ## Connectors and indicators
 
@@ -77,8 +78,8 @@ The two slots have independent device-select jumpers. When using both cards on t
 | JP3 | Slot A device selection |
 | JP4 | Slot B device selection |
 | D2 | POWER LED |
-| D3 | MASTER LED |
-| D4 | SLAVE LED |
+| D3 | CF A card-present LED |
+| D4 | CF B card-present LED |
 | D5 | ACTIVITY LED |
 
 ## Bill of Materials
@@ -127,7 +128,7 @@ Board photographs:
 
 ## Design files
 
-The hardware design is provided as KiCad project, schematic and PCB files in `Dual-CF-to-IDE_Adapter_v1/`. (KiCad E.D.A. 10.0.3)
+The hardware design is provided as KiCad project, schematic and PCB files in `Dual-CF-to-IDE_Adapter_v1/`. (needs KiCad 10)
 
 ## License
 
