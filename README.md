@@ -87,7 +87,7 @@ The CF A / CF B LEDs follow the physical slot, not the Master/Slave role set by 
 If you enjoy my projects and would like to support my work, you can do so through PCBWay. You can also order the PCBs for this project directly from the link below. Every bit of support is appreciated!
 
 <p>
-  <a href="https://www.pcbway.com/project/shareproject/ZX_Spectrum_Composite_Mod_PCB_dd62d6fd.html">
+  <a href="https://www.pcbway.com/project/shareproject/Dual_CF_to_IDE_Adapter_f9c31902.html">
     <img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCBWay — Support my projects" />
   </a>
 </p>
